@@ -20,4 +20,4 @@ docker run -d --net=asa-net --name c02 c02
 
 docker run -d --net=asa-net --name c03 c03
 
-docker run -dp 8001:80 --net=asa-net --name proxy proxy
+docker run -dp 8090:80 --net=asa-net --name proxy proxy
